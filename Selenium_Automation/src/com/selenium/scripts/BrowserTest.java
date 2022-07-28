@@ -20,7 +20,7 @@ public class BrowserTest {
 			driver = new ChromeDriver();
 		    break;
 		default:
-			System.out.println("Invalid browser");
+			System.out.println("valid browser");
 			break;
 		}
 		driver.get("https://www.mycontactform.com/");
